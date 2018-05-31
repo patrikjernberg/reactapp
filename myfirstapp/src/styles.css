@@ -1,0 +1,27 @@
+body {
+    font-family: arial;
+    font-weight: 300;
+    margin: 10px;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 30px 30px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: max-content;
+    grid-auto-flow: row dense;
+    
+}
